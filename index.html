@@ -7,18 +7,20 @@
     <title>Document</title>
 </head>
 <body>
-    <img src="./jolly.jpg" alt="">
+    <img width="200px" src="./jolly.jpg" alt="">
 
     <p onclick="getJoke()">
         Click me for new joke!
     </p>
 
-    <p onclick="prev()">
-        prev
-    </p>
-    <p onclick="next()">
-        next
-    </p>
+    <div style="display: flex;">
+        <p onclick="prev()" style="margin-right: 1em;">
+            prev
+        </p>
+        <p onclick="next()">
+            next
+        </p>
+    </div>
 
     <p id="jokeZone">
 
